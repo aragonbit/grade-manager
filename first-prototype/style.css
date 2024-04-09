@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-image: url("https://i.redd.it/wuyvcvvvm7i51.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li, a, button {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fc9c05;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn1 {
+    position: relative;
+    left: 77.5%;
+}
+
+.btn2 {
+    position: relative;
+    left: 78%;
+}
+
+.nav-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+    left: 15px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 45px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #f4353e
+}
+
+.btn {
+    padding: 9px 25px;
+    background: none;
+    border: 1px solid #fc9c05;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.sgu {
+    color: #fc9c05;
+}
+
+.sgi {
+    color: #ffffff;
+    background-color: rgba(252, 156, 5, 1);
+}
+
+.sgu:hover {
+    font-weight: 700;
+    background-color: rgba(252, 156, 5, 0.2);
+}
+
+.sgi:hover {
+    font-weight: 700;
+    background-color: rgba(252, 156, 5, 0.8);
+}
+
+.quote {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: -2px;
+    font-style: normal;
+    color: #fc9c05;
+    position: absolute;
+    top: 47.5%;
+    left: 2.5%;
+}
